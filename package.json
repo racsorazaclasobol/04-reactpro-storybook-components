@@ -1,11 +1,11 @@
 {
   "name": "oal-my-storybook-components",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "license": "MIT",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
   "repository": {
-    "url": "https://github.com/racsorazaclasobol/storybook-components",
+    "url": "git+https://github.com/racsorazaclasobol/storybook-components.git",
     "type": "git"
   },
   "peerDependencies": {
@@ -86,6 +86,13 @@
     "@semantic-release/npm",
     "@semantic-release/git"
   ],
-  "readme": "ERROR: No README data found!",
-  "_id": "04-my-storybook@0.1.0"
+  "bugs": {
+    "url": "https://github.com/racsorazaclasobol/storybook-components/issues"
+  },
+  "homepage": "https://github.com/racsorazaclasobol/storybook-components#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "Oscar Alcazar",
+  "description": ""
 }
