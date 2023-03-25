@@ -45,10 +45,18 @@ Tertiary.args = {
     allCaps: true,
 }
 
-export const customColor  = Template.bind({});
+export const CustomColor  = Template.bind({});
 Tertiary.args = { 
     label: 'No Label',
     size: 'h1',
     color: 'primary',
     fontColor: '#000000',
+}
+
+export const CustomBackgroundColor  = Template.bind({});
+CustomBackgroundColor.args = { 
+    label: 'No Label',
+    size: 'h1',
+    fontColor: '#EEEEEE',
+    backgroundColor:'#000000'
 }
